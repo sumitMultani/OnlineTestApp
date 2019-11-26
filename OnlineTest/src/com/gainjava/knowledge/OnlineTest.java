@@ -11,6 +11,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JRadioButton;
 
 class OnlineTest extends JFrame implements ActionListener {
+	
 	JLabel label;
 	JRadioButton radioButton[] = new JRadioButton[5];
 	JButton btnNext, btnBookmark;
@@ -18,6 +19,7 @@ class OnlineTest extends JFrame implements ActionListener {
 	int count = 0, current = 0, x = 1, y = 1, now = 0;
 	int m[] = new int[10];
 
+	// create jFrame with radioButton and JButton
 	OnlineTest(String s) {
 		super(s);
 		label = new JLabel();
@@ -49,6 +51,7 @@ class OnlineTest extends JFrame implements ActionListener {
 		setSize(600, 350);
 	}
 
+	// handle all actions based on event
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == btnNext) {
 			if (check())
@@ -94,6 +97,7 @@ class OnlineTest extends JFrame implements ActionListener {
 		}
 	}
 
+	// SET Questions with options
 	void set() {
 		radioButton[4].setSelected(true);
 		if (current == 0) {
@@ -173,6 +177,7 @@ class OnlineTest extends JFrame implements ActionListener {
 			radioButton[j].setBounds(50, 80 + i, 200, 20);
 	}
 
+	// declare right answers.
 	boolean check() {
 		if (current == 0)
 			return (radioButton[1].isSelected());

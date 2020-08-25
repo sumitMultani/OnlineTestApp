@@ -74,6 +74,7 @@ class OnlineTest extends JFrame implements ActionListener {
 			set();
 			if (current == 9)
 				btnBookmark.setText("Result");
+			setVisible(false);
 			setVisible(true);
 		}
 		for (int i = 0, y = 1; i < x; i++, y++) {

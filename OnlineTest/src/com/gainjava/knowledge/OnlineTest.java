@@ -117,7 +117,7 @@ class OnlineTest extends JFrame implements ActionListener {
 			radioButton[3].setText("Streams");
 		}
 		if (current == 2) {
-			label.setText("Que2: SessionFactory is a thread-safe object.");
+			label.setText("Que3: SessionFactory is a thread-safe object.");
 			radioButton[0].setText("true");
 			radioButton[1].setText("false");
 			radioButton[2].setText("don't know");

@@ -38,7 +38,8 @@ class OnlineTest extends JFrame implements ActionListener {
 		add(btnBookmark);
 		set();
 		label.setBounds(30, 40, 450, 20);
-		radioButton[0].setBounds(50, 80, 200, 20);
+		//radioButton[0].setBounds(50, 80, 200, 20);
+		radioButton[0].setBounds(50, 80, 450, 20);
 		radioButton[1].setBounds(50, 110, 200, 20);
 		radioButton[2].setBounds(50, 140, 200, 20);
 		radioButton[3].setBounds(50, 170, 200, 20);
@@ -109,20 +110,18 @@ class OnlineTest extends JFrame implements ActionListener {
 			radioButton[3].setText("Lambda Expression");
 		}
 		if (current == 1) {
-			label.setText("Que2: What is the purpose of BooleanSupplier function interface?");
-			radioButton[0]
-					.setText("represents supplier of Boolean-valued results");
-			radioButton[1].setText("returns Boolean-valued result");
-			radioButton[2].setText("There is no such function interface");
-			radioButton[3]
-					.setText("returns null if Boolean is passed as argument");
+			label.setText("Que2:  Which feature of java 7 allows to not explicitly close IO resource?");
+			radioButton[0].setText("try catch finally");
+			radioButton[1].setText("IOException");
+			radioButton[2].setText("AutoCloseable");
+			radioButton[3].setText("Streams");
 		}
 		if (current == 2) {
-			label.setText("Que3: What is the return type of lambda expression?");
-			radioButton[0].setText("String");
-			radioButton[1].setText("Object");
-			radioButton[2].setText("void");
-			radioButton[3].setText("Function");
+			label.setText("Que2: SessionFactory is a thread-safe object.");
+			radioButton[0].setText("true");
+			radioButton[1].setText("false");
+			radioButton[2].setText("don't know");
+			radioButton[3].setText("false");
 		}
 		if (current == 3) {
 			label.setText("Que4: Which is the new method introduced in java 8 to iterate over a collection?");

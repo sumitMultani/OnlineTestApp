@@ -12,6 +12,8 @@ import javax.swing.JRadioButton;
 
 class OnlineTest extends JFrame implements ActionListener {
 	
+	private static final long serialVersionUID = 1L;
+
 	JLabel label;
 	JRadioButton radioButton[] = new JRadioButton[5];
 	JButton btnNext, btnBookmark;

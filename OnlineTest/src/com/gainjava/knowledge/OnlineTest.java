@@ -182,9 +182,9 @@ class OnlineTest extends JFrame implements ActionListener {
 		if (current == 0)
 			return (radioButton[1].isSelected());
 		if (current == 1)
-			return (radioButton[0].isSelected());
+			return (radioButton[1].isSelected());
 		if (current == 2)
-			return (radioButton[3].isSelected());
+			return (radioButton[0].isSelected());
 		if (current == 3)
 			return (radioButton[2].isSelected());
 		if (current == 4)

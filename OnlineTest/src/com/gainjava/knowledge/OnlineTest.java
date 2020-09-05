@@ -38,10 +38,10 @@ class OnlineTest extends JFrame implements ActionListener {
 		add(btnBookmark);
 		set();
 		label.setBounds(30, 40, 450, 20);
-		radioButton[0].setBounds(50, 80, 100, 20);
-		radioButton[1].setBounds(50, 110, 100, 20);
-		radioButton[2].setBounds(50, 140, 100, 20);
-		radioButton[3].setBounds(50, 170, 100, 20);
+		radioButton[0].setBounds(50, 80, 200, 20);
+		radioButton[1].setBounds(50, 110, 200, 20);
+		radioButton[2].setBounds(50, 140, 200, 20);
+		radioButton[3].setBounds(50, 170, 200, 20);
 		btnNext.setBounds(100, 240, 100, 30);
 		btnBookmark.setBounds(270, 240, 100, 30);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
